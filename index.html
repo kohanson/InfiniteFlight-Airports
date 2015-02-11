@@ -29,21 +29,16 @@
       </header>
       <section>
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome!</h3>
+<a id="welcome" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome!</h3>
 
 <p>Glad to have you here! If you enjoy aviation, designing, and want to make Infinite Flight better, then you've come to the right place!</p>
 <p>Infinite Flight contains many airports worldwide, and our mission is to make sure they are as accurate as possible. We're looking for people to help with creating accurate layouts, with taxiways, taxi lines, ATC frequencies and parking spots.</p>
 
-<!--<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>!-->
-
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting started</h3>
+<a id="getting-started" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting started</h3>
 
 <p><iframe width="100%" height="350px" src="https://www.youtube.com/embed/U-hPkX9Rqxs" frameborder="0" allowfullscreen></iframe><br><br><i>Watch this video to help you get started</i></i></p>
-<p>Before you can begin editing airports, a few things need to be done:
+<p>Before you can begin editing airports, a few things need to be done. Please note, you will need a PC/Mac in order to edit airports, mobile devices aren't currently supported:
   <ul>
     <li>Create a <a href="http://github.com/" target="blank">GitHub account</a> and fork the <a href="http://github.com/carmichaelalonso/InfiniteFlight-Airports" target="blank">repo</a>.</li>
     <li>Install a version of <a href="http://x-plane.com/" target="blank">X-Plane</a> and download <a href="http://developer.x-plane.com/tools/worldeditor/" target="blank">World Editor (WED)</a></li>
@@ -66,7 +61,7 @@ That's all there is to it! You're good to go!
 </p>
 
 <h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using WED.</h3>
+<a id="using-wed" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using WED.</h3>
 
 <p><iframe width="100%" height="350px" src="https://www.youtube.com/embed/videoseries?list=PLMlRNmHeyivDv8OLFArflWLt_ZQJWD1oU" frameborder="0" allowfullscreen></iframe>
   <i>This is an excellent tutorial by Laminar Research covering the basics of using WED.</i></p>
@@ -80,10 +75,48 @@ That's all there is to it! You're good to go!
   </p>
 
 <h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sending changes</h3>
+<a id="sending-changes" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sending changes</h3>
 
 <p>So you've just spent some time making an airport awesome... what next?</p>
-<p>You need to send the changes you have made to us in order for them to be included in a future version of Infinite Flight!</p>
+<p>You need to send the changes you have made to us in order for them to be included in a future version of Infinite Flight! (your changes won't be instantly available for download on Infinte Flight - we tend to get the airports updated with every Infinite Flight update).</p>
+<p>There are two ways of submitting changes:</p>
+<p><strong>By email (easy)</strong></p>
+<ol>
+  <li>In WorldEditor, go to File - Export as apt.dat.</li>
+  <li>Save the file in the corresponding folder for the airport.</li>
+  <li>Open up an email client (such as Gmail).</li>
+  <li>Send an email to <pre><code><a href="mailto:airports@liveflightapp.com">airports@liveflightapp.com</a></code></pre></li>
+  <li>Attach the apt.dat for the airport you just exported, and set the subject to the ICAO code of the airport</li>
+</ol>
+<p>It should look something like this:</p>
+<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t35.0-12/10969505_616551075157989_1300315316_o.jpg?oh=8a45e40a3bb19f400c997366a246feb8&oe=54DD94D1&__gda__=1423796353_818cb6315d8dbc12ec79fb8f25bb302b" width="50%">
+
+<p><strong>By using GitHub (harder)</strong></p>
+<ol>
+  <li>In WorldEditor, go to File - Export as apt.dat.</li>
+  <li>Save the file in the corresponding folder for the airport.</li>
+  <li>Open the GitHub app you previously downloaded.</li>
+  <li>It should list the airport(s) you have just edited under 'Uncommited changes'</li>
+  <li>Tick the box next to the airport file, and then enter a brief 'Summary' of what you have edited.</li>
+  <li>Tap commit.</li>
+  <li>Once this has finished, tap "Sync" in the top-right corner.</li>
+  <li>Go to <a href="http://github.com/" target="blank">github.com</a> and login with your username and password.</li>
+  <li>Under the 'My Repositories page', you will find a repository called "InfiniteFlight-Airports" - tap on it.</li>
+  <li>On the repo page, find a green button just on-top of the file list - it should be marked "Pull Request" when you hover over it.</li>
+  <li>On the following page, tap "Create Pull Request"</li>
+  <li>Add a summary, and tap Create Pull Request</li>
+  <li>We will review the content, and merge it into the main repo!</li>
+</ol>
+
+<p><strong>One more thing...</strong></p>
+<p>We use data that has originally been acquired by X-Plane. However, we have obtained it on the condition that we contribute our data back to them. It's extremely easy to do, thanks to built in support in WED:</p>
+<ol>
+<li>Go to <a href="http://gateway.x-plane.com/" target="blank">gateway.x-plane.com</a> and create a Scenery Gateway account.</li>
+  <li>In WED, select the airport within the layers list (top-right)</li>
+  <li>Go to File - Export to Airport Scenery Gateway</li>
+  <li>Sign in with your username and password, and a comment if needed, then send it.</li>
+  <li>A scenery gateway moderator will approve/deny your changes - make sure to make any amendments if they reject it!</li>
+</ol>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's next?</h3>
